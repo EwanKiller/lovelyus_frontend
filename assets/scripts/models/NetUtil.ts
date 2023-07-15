@@ -12,7 +12,7 @@ export class NetUtil {
     static matchClient = new (WECHAT ? HttpClient_Miniapp : HttpClient_Browser)(serviceProto_match, {
         server: FrontConfig.matchServer,
         // json: true,
-        logger: console
+        // logger: console
     });
 
     /** Room Server */
