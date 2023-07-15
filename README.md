@@ -1,11 +1,10 @@
-frontend
-===
+# Lovelyus
 
 ## 启动
 
-- 需要 Cocos Creator 3.4.2 以上版本
-- 先 `npm install`，再打开 Cocos Creator
-- 如果 `npm install` 之后打开 Cocos 依然报错，尝试大清理重启：
-    - 关闭 Cocos Creator
-    - 删除 `library` `temp` 目录
-    - 重启 Cocos Creator
+- 基于 Cocos Creator 3.7.3 开发
+    - 使用了TSRPC框架进行网络通信
+
+- 先`npm ci`安装依赖，然后用CocosCreator打开
+
+
