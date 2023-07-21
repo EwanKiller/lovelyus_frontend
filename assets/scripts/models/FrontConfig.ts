@@ -3,9 +3,10 @@ import { EDITOR, PREVIEW } from "cc/env";
 
 function getMatchServerUrl(): string {
     if (PREVIEW || EDITOR) {
+    // if(EDITOR) {
         return 'http://127.0.0.1:3000';
     } else {
-        return 'http://154.8.142.35:4000';
+        return 'http://thisewan.cn/lovelyus/match/';
     }
 }
 
