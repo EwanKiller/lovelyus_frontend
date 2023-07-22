@@ -10,7 +10,7 @@
   },
   "description": "Lovelyus fronetend project",
   "dependencies": {
-    "tsrpc-browser": "^3.3.0",
-    "tsrpc-miniapp": "^3.3.0"
+    "tsrpc-browser": "^3.4.13",
+    "tsrpc-miniapp": "^3.4.13"
   }
 }

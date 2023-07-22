@@ -6,7 +6,7 @@ function getMatchServerUrl(): string {
     // if(EDITOR) {
         return 'http://127.0.0.1:3000';
     } else {
-        return 'http://thisewan.cn/lovelyus/match/';
+        return 'https://thisewan.cn/lovelyus/match/';
     }
 }
 
